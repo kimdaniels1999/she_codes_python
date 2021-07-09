@@ -22,7 +22,17 @@
 # second_number2 = input("Name the number before 10 =")
 # sum = int(negative) + int(second_number2)
 # print(f"Great, add these together and this makes {sum}")
-choose = input("Choose the correct answer, what number goes between 2.0 and 4.0 =")
-second_number3 = input("what is -12 - 3 = ")
+# choose = input("Choose the correct answer, what number goes between 2.0 and 4.0 =")
+# second_number3 = input("what is -12 - 3 = ")
+# sum = int(choose) + second_number3
 
+first_number = input("Which number comes after 2 =")
+second_number = input("Name the number before 10 =")
+sum = int(first_number) * int(second_number)
+print(f"Great, multiply these two numbers = {sum}")
+
+negative = input("What is 2 - 5 =")
+second_number2 = input("Name the number before 10 =")
+sum = int(negative) * int(second_number2)
+print(f"Great, multiply these two numbers {sum}")
 
